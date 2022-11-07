@@ -5,6 +5,12 @@ def sum(a, b):
 def sub(a, b):
     print(a - b)
 
+def div(a, b):
+    print(a / b)
+
+def mul(a, b):
+    print( a * b)
+
 #전역 변수부
 
 n1, n2= 100, 200
@@ -13,3 +19,5 @@ n1, n2= 100, 200
 
 sum(n1, n2)
 sub(n1, n2)
+div(n1, n2)
+mul(n1, n2)
